@@ -14,7 +14,9 @@
 
     <header
       class="p-5 text-center"
-      style="background: center/cover url('img/sommet_neige_nuage.jpg')"
+      style="
+        background: center/cover url('img/sommet_nuage_aurore_1920x1280.jpg');
+      "
     >
       <div id="presentation" class="container">
         <p id="dwd">DWD</p>
@@ -42,7 +44,7 @@
               <a href="index.html" class="nav-link">Accueil</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">A vous de choisir</a>
+              <a href="./vitrine.html" class="nav-link">Vitrine</a>
             </li>
             <li class="nav-item">
               <a href="./contact.html" class="nav-link">Contact</a>
@@ -87,32 +89,65 @@
       </div>
     </section>
 
+    <div class="container text-center p-5">
+      <h1>CONTACT</h1>
+
+      <p>Vous pouvez nous contacter par ce formulaire ou par tel au :</p>
+      <a href="tel:0682254811"> 06 82 25 48 11</a>
+    </div>
+
     <!-- FORMULAIRE -->
-    <form>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label"
-          >Adresse e-mail</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-        />
-        <div id="emailHelp" class="form-text">
-          Nous ne partagons pas votre e-mail
-        </div>
-      </div>
-      <div class="mb-3">
-        <label for="nom" class="form-label">Nom</label>
-        <input type="text" class="form-control" id="nom" />
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Prénom</label>
-        <input type="text" class="form-control" id="prenom" />
+
+    <div class="row p-5">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Adresse e-mail *</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Votre mail est indispensable."
+              required
+            />
+            <div id="emailHelp" class="form-text">
+              Nous ne partagons pas votre e-mail
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="nom" class="form-label">Nom *</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nom"
+              placeholder="Votre nom est indispensable."
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Prénom</label>
+            <input
+              type="text"
+              class="form-control"
+              id="prenom"
+              placeholder="Veuillez entrer votre prénom."
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Soumettre</button>
+        </form>
       </div>
 
-      <button type="submit" class="btn btn-primary">Soumettre</button>
-    </form>
+      <div class="col-2"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white p-3 text-end">
+      <div class="container">2022 © Karim Tareb</div>
+    </footer>
   </body>
 </html>
