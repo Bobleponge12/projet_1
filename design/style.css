@@ -1,0 +1,14 @@
+
+#dwd
+{
+    font-weight: bolder;
+    font-size: 5rem;
+   font-family: "Binjay";
+   color: antiquewhite;
+}
+
+@font-face
+{
+    font-family: "Binjay";
+    src: url(../src/Binjay.otf) format('opentype');
+}
