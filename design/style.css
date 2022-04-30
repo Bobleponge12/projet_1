@@ -17,6 +17,7 @@
 
 .fondNoir {
     background: black;
+    border-top: .1px solid white;
 }
 
 @font-face
