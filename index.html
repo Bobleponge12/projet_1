@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./design/style.css">
+    <link rel="stylesheet" href="./design/styleAnimReseau.css">
     <link rel="stylesheet" href="./design/bootstrap.min.css">
     <link rel="stylesheet" href="./design/bootstrap.min.css.map">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Création de site web</title>
 </head>
 
@@ -17,7 +22,7 @@
 
     <header class="p-5  text-center" style="background: center/cover url('img/chaine_alpes_aurore_1920x1180.jpg')">
         <div id="presentation" class="container">
-            <p id="dwd">DWD</p>
+            <p class="dwd">DWD</p>
 
 
         </div>
@@ -152,19 +157,63 @@
 
 
     <!-- FOOTER -->
-    <footer class="bg-dark text-white p-3 text-end">
-        <div class="container">
+    <footer class="bg-dark text-white p-3">
+        <div class="row text-center">
+            <!-- <div class="col-2"></div> -->
+            <div class="col-md-4 mt-4">
+        <!-- Liens Réseaux Sociaux Animés -->
+        <div class="box">
+            <!-- CHECKBOX -->
+            <input type="checkbox" name="checkbox" id="checkbox" />
+      
+            <!-- MENU -->
+      
+            <div class="menu">
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+              </a>
+            </div>
+      
+            <div class="menu">
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </a>
+            </div>
+            <div class="menu">
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+              </a>
+            </div>
+            <div class="menu">
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 dwd">DWD</div>
+<!-- Nom  et Année -->
+        <div class="col-md-4 mt-4 fs-5">
 
-            2022 © Karim Tareb
+            2022 © Karim Tareb 
 
         </div>
+    </div>
     </footer>
 
 
     <!-- MODAL --->
 
     <!-- Modal Site vitrine -->
-    <div class="modal fade" id="echarpeModal" data-bs-backdrop="static">
+    <div class="modal fade" id="siteVitrine" data-bs-backdrop="static">
         <!-- Ce dernier paramètre empeche de fermer la modale en cliquant sur zone grisée-->
 
         <!-- Créer la boite de dialogue -->
@@ -201,7 +250,7 @@
 
     <!-- Modal Site avec compte client -->
 
-    <div class="modal fade" id="coupeModal" data-bs-backdrop="static">
+    <div class="modal fade" id="siteCompteClient" data-bs-backdrop="static">
         <!-- Ce dernier paramètre empeche de fermer la modale en cliquant sur zone grisée-->
 
         <!-- Créer la boite de dialogue -->
@@ -245,7 +294,7 @@
 
     <!-- Modal Site e-commerce -->
 
-    <div class="modal fade" id="baguetteModal" data-bs-backdrop="static">
+    <div class="modal fade" id="siteEcommerce" data-bs-backdrop="static">
         <!-- Ce dernier paramètre empeche de fermer la modale en cliquant sur zone grisée-->
 
         <!-- Créer la boite de dialogue -->
