@@ -103,7 +103,7 @@
 
       <div class="container text-center">
         <p>Vous pouvez nous contacter avec ce formulaire ou par tel au :</p>
-        <a href="tel:0682254811"> 06 82 25 48 11</a>
+        <a id="tel" href="tel:0682254811"> 06 82 25 48 11</a>
       </div>
 
       <!-- FORMULAIRE -->
@@ -112,6 +112,7 @@
         <div class="col-2"></div>
         <div class="col-8">
           <form>
+            <!-- E-mail -->
             <div class="mb-3">
               <label for="emailForm" class="form-label">Adresse e-mail *</label>
               <input
@@ -126,7 +127,7 @@
                 Nous ne partagons pas votre e-mail
               </div>
             </div>
-
+            <!-- Nom -->
             <div class="mb-3">
               <label for="nom" class="form-label text-white">Nom *</label>
               <input
@@ -137,6 +138,8 @@
                 required
               />
             </div>
+
+            <!-- Prénom -->
             <div class="mb-3">
               <label for="prenom" class="form-label text-white">Prénom</label>
               <input
@@ -159,7 +162,7 @@
               ></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Soumettre</button>
+            <button type="submit" class="btn btn-secondary">Soumettre</button>
           </form>
         </div>
 
@@ -171,7 +174,7 @@
     <footer class="fondNoir text-white p-3">
       <div class="row text-center">
         <!-- <div class="col-2"></div> -->
-        <div class="col-md-4 mt-4">
+        <div id="reseauSociau" class="col-md-4 mt-4">
           <!-- Liens Réseaux Sociaux Animés -->
           <div class="box">
             <!-- CHECKBOX -->
@@ -211,8 +214,9 @@
           </div>
         </div>
         <div class="col-md-4 dwd">DWD</div>
+        <div class="col-md-2"></div>
         <!-- Nom  et Année -->
-        <div class="col-md-4 mt-4 fs-5">2022 © Karim Tareb</div>
+        <div class="col-md-2 mt-5 fs-5">2022 © Karim Tareb</div>
       </div>
     </footer>
   </body>

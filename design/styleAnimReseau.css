@@ -13,8 +13,8 @@
 }
 
 #checkbox {
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
     appearance: none;
     background: white;
     cursor: pointer;
@@ -47,7 +47,7 @@ content: '\f00d';
 }
 
 #checkbox:checked ~ .menu {
-width: 65px; /* calculé en additionnat les 4 icon de 65px + les 4 bordures de 1px = 4*65 + 4*1 = 264*/
+width: 60px; /* calculé en additionnat les 4 icon de 65px + les 4 bordures de 1px = 4*65 + 4*1 = 264*/
 }
 
 .menu {
@@ -58,8 +58,8 @@ width: 65px; /* calculé en additionnat les 4 icon de 65px + les 4 bordures de 1
 }
 
 .menu .menuItems {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     background: white;
     border-left: 1px solid rgb(165, 165, 165);
     display: flex;
